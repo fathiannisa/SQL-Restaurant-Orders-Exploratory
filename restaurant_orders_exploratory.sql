@@ -1,3 +1,5 @@
+-- This project explores transactional and menu data from a fictional restaurant, Taste of the World Café, to uncover customer preferences and business insights following the launch of a new menu.
+
 -- OBJECTIVE 1 - Explore the menu_items table to get an idea of what’s on the new menu
 
 -- a. View all menu items
