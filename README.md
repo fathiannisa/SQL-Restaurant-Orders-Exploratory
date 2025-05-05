@@ -6,7 +6,7 @@ This project explores transactional and menu data from a fictional restaurant, *
 
 ## 📈 Skills Demonstrated
 
-- Writing and organizing complex SQL queries  
+- Writing and organizing SQL queries  
 - Filtering and aggregating data using `WHERE`, `GROUP BY`, and `HAVING`  
 - Joining tables using `LEFT JOIN`  
 - Extracting actionable business insights from relational databases  
