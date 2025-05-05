@@ -1,4 +1,3 @@
-# SQL-Restaurant-Orders-Exploratory
 # 🍽️ SQL Restaurant Orders Exploratory
 
 This project explores transactional and menu data from a fictional restaurant, **Taste of the World Café**, to uncover customer preferences and business insights following the launch of a new menu.
