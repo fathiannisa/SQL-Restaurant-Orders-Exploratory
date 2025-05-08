@@ -133,7 +133,7 @@ FROM order_details od LEFT JOIN menu_items mi
 WHERE oder_id IN (440, 2075, 1957, 330, 2675)
 GROUP BY category;
 
--- g. Check each order_id’s category
+-- Check each order_id’s category
 SELECT order_id, category, COUNT(item_id) AS num_items
 FROM order_details od LEFT JOIN menu_items mi
 	ON od.item_id = mi.menu_item_id
