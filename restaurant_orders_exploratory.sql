@@ -139,5 +139,6 @@ FROM order_details od LEFT JOIN menu_items mi
 	ON od.item_id = mi.menu_item_id
 WHERE oder_id IN (440, 2075, 1957, 330, 2675)
 GROUP BY order_id, category;
--- Insights: Most highest spend order_id (4 out of 5) is ordered Italian food, insight: we should keep this expensive Italian food on the menu because people seems to be ordering that a lot, especially our highest spend customers
+-- Insights: Most highest spend order_id (4 out of 5) is ordered Italian food
+-- Suggestion: we should keep this expensive Italian food on the menu because people seems to be ordering that a lot, especially our highest spend customers
 
