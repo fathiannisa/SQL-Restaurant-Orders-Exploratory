@@ -126,14 +126,14 @@ WHERE order_id = 440
 GROUP BY category;
 -- Insights: The highest spend order is Italian items, eventho not popular in the menu (Most popular: American)
 
--- 5.	View the details of the top 5 highest spend orders. What insights can you gather from the results?
+-- f. View the details of the top 5 highest spend orders. What insights can you gather from the results?
 SELECT category, COUNT(item_id) as num_items
 FROM order_details od LEFT JOIN menu_items mi
 	ON od.item_id = mi.menu_item_id
 WHERE oder_id IN (440, 2075, 1957, 330, 2675)
 GROUP BY category;
 
--- Check each order_id’s category
+-- g. Check each order_id’s category
 SELECT order_id, category, COUNT(item_id) as num_items
 FROM order_details od LEFT JOIN menu_items mi
 	ON od.item_id = mi.menu_item_id
